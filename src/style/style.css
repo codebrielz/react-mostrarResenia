@@ -1,0 +1,62 @@
+/* general */
+html,body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+}
+/* css general */
+.texto-editado{
+    color: blueviolet;
+}
+/* HomeScreen */
+.home__title{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.home__resenia-usuarios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Resenias */
+.resenias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+}
+.resenias__content{
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    box-sizing: border-box;
+}
+.resenias__name{
+    font-size: 24px;
+    font-weight: 900;
+    margin:0 ;
+    padding: 1em;
+    color: white;
+    background-color: rgb(164, 104, 220);
+    border-radius: 5px 5px 0 0;
+}
+.resenias__rate{
+    font-size: 24px;
+    font-weight: 400;
+}
+.resenias__desc{
+    padding: 1em;
+    font-size: 20px;
+}
+.resenias__button{
+    text-align: right;
+    display: block;
+    padding: 1em;
+    border-radius:0 0 5px 5px;
+    background-color: rgb(43, 226, 223);
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+}
